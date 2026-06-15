@@ -9,13 +9,13 @@ import (
 
 func TestToExportedNameConvertsActionNames(t *testing.T) {
 	tests := map[string]string{
-		"send_private_msg":     "SendPrivateMsg",
-		"get_login_info":       "GetLoginInfo",
-		"ArkSharePeer":         "ArkSharePeer",
-		".ocr_image":           "DotOcrImage",
-		"_mark_all_as_read":    "UnderscoreMarkAllAsRead",
-		"get_group_file_url":   "GetGroupFileURL",
-		"get_robot_uin_range":  "GetRobotUINRange",
+		"send_private_msg":    "SendPrivateMsg",
+		"get_login_info":      "GetLoginInfo",
+		"ArkSharePeer":        "ArkSharePeer",
+		".ocr_image":          "DotOcrImage",
+		"_mark_all_as_read":   "UnderscoreMarkAllAsRead",
+		"get_group_file_url":  "GetGroupFileURL",
+		"get_robot_uin_range": "GetRobotUINRange",
 	}
 
 	for input, want := range tests {

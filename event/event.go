@@ -57,13 +57,13 @@ type GroupSender struct {
 // PrivateMessage 表示私聊消息事件。
 type PrivateMessage struct {
 	Base
-	MessageType string         `json:"message_type"`
-	SubType     string         `json:"sub_type"`
-	MessageID   int64          `json:"message_id"`
-	UserID      int64          `json:"user_id"`
-	Message     message.Chain  `json:"message"`
-	RawMessage  string         `json:"raw_message"`
-	Sender      PrivateSender  `json:"sender"`
+	MessageType string        `json:"message_type"`
+	SubType     string        `json:"sub_type"`
+	MessageID   int64         `json:"message_id"`
+	UserID      int64         `json:"user_id"`
+	Message     message.Chain `json:"message"`
+	RawMessage  string        `json:"raw_message"`
+	Sender      PrivateSender `json:"sender"`
 }
 
 // GroupMessage 表示群消息事件。

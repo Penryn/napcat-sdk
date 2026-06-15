@@ -17,15 +17,15 @@ import (
 type Option func(*options)
 
 type options struct {
-	token           string
-	httpTimeout     time.Duration
-	httpRetryCount  int
-	httpRetryWait   time.Duration
-	restyClient     *resty.Client
-	wsDialOptions   *websocket.DialOptions
-	requestTimeout  time.Duration
-	eventBuffer     int
-	logger          *slog.Logger
+	token          string
+	httpTimeout    time.Duration
+	httpRetryCount int
+	httpRetryWait  time.Duration
+	restyClient    *resty.Client
+	wsDialOptions  *websocket.DialOptions
+	requestTimeout time.Duration
+	eventBuffer    int
+	logger         *slog.Logger
 }
 
 // Client 是 SDK 的统一入口。
