@@ -1,3 +1,5 @@
+//go:generate go run ../cmd/napcatgen -spec ../internal/openapi/4.18.6/openapi.json -out .
+
 // Package api 提供生成 API 方法共享的运行时类型。
 package api
 
