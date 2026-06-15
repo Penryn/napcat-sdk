@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/phlin/napcat-sdk/internal/gen"
+	"github.com/zjutjh/napcat-sdk/internal/gen"
 )
 
 func main() {

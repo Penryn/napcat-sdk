@@ -13,7 +13,7 @@ import (
 	"unicode"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/phlin/napcat-sdk/internal/jsonx"
+	"github.com/zjutjh/napcat-sdk/internal/jsonx"
 )
 
 // GenerateFromFile 从 OpenAPI spec 生成 API 代码。

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/go-resty/resty/v2"
-	"github.com/phlin/napcat-sdk/internal/errorsx"
-	"github.com/phlin/napcat-sdk/internal/jsonx"
+	"github.com/zjutjh/napcat-sdk/internal/errorsx"
+	"github.com/zjutjh/napcat-sdk/internal/jsonx"
 )
 
 // HTTPOptions 配置 HTTP 调用器。

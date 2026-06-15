@@ -1,4 +1,4 @@
-module github.com/phlin/napcat-sdk
+module github.com/zjutjh/napcat-sdk
 
 go 1.25
 

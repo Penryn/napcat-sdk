@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/coder/websocket"
-	"github.com/phlin/napcat-sdk/event"
-	"github.com/phlin/napcat-sdk/internal/errorsx"
-	"github.com/phlin/napcat-sdk/internal/jsonx"
+	"github.com/zjutjh/napcat-sdk/event"
+	"github.com/zjutjh/napcat-sdk/internal/errorsx"
+	"github.com/zjutjh/napcat-sdk/internal/jsonx"
 )
 
 // WebSocketOptions 配置 WebSocket 调用器。

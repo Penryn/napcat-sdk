@@ -4,8 +4,8 @@ package event
 import (
 	"fmt"
 
-	"github.com/phlin/napcat-sdk/internal/jsonx"
-	"github.com/phlin/napcat-sdk/message"
+	"github.com/zjutjh/napcat-sdk/internal/jsonx"
+	"github.com/zjutjh/napcat-sdk/message"
 )
 
 // Event 是所有上报事件的公共接口。

@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"strconv"
 
-	napcat "github.com/phlin/napcat-sdk"
-	"github.com/phlin/napcat-sdk/api"
-	"github.com/phlin/napcat-sdk/event"
-	"github.com/phlin/napcat-sdk/message"
+	napcat "github.com/zjutjh/napcat-sdk"
+	"github.com/zjutjh/napcat-sdk/api"
+	"github.com/zjutjh/napcat-sdk/event"
+	"github.com/zjutjh/napcat-sdk/message"
 )
 
 func main() {

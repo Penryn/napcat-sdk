@@ -1,6 +1,6 @@
 package napcat
 
-import "github.com/phlin/napcat-sdk/internal/errorsx"
+import "github.com/zjutjh/napcat-sdk/internal/errorsx"
 
 // ErrClosed 表示 client 或底层连接已经关闭。
 var ErrClosed = errorsx.ErrClosed

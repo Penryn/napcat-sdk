@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/phlin/napcat-sdk/internal/errorsx"
+	"github.com/zjutjh/napcat-sdk/internal/errorsx"
 )
 
 func TestHTTPCallerPostsActionWithToken(t *testing.T) {

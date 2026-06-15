@@ -6,7 +6,7 @@ package api
 import (
 	"context"
 
-	"github.com/phlin/napcat-sdk/transport"
+	"github.com/zjutjh/napcat-sdk/transport"
 )
 
 // Client 调用 NapCat action。强类型方法由生成代码补充。

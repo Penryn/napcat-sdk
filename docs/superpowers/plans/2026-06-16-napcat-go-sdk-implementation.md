@@ -38,7 +38,7 @@
 - [ ] **步骤 1：创建模块信息**
 
 ```go
-module github.com/phlin/napcat-sdk
+module github.com/zjutjh/napcat-sdk
 
 go 1.24
 ```

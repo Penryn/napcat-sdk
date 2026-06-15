@@ -8,9 +8,9 @@ import (
 
 	"github.com/coder/websocket"
 	"github.com/go-resty/resty/v2"
-	"github.com/phlin/napcat-sdk/api"
-	"github.com/phlin/napcat-sdk/event"
-	"github.com/phlin/napcat-sdk/transport"
+	"github.com/zjutjh/napcat-sdk/api"
+	"github.com/zjutjh/napcat-sdk/event"
+	"github.com/zjutjh/napcat-sdk/transport"
 )
 
 // Option 配置 SDK client。

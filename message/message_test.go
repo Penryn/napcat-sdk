@@ -3,7 +3,7 @@ package message
 import (
 	"testing"
 
-	"github.com/phlin/napcat-sdk/internal/jsonx"
+	"github.com/zjutjh/napcat-sdk/internal/jsonx"
 )
 
 func TestChainMarshalUnmarshalPreservesSegments(t *testing.T) {
